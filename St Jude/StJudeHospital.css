@@ -1,0 +1,64 @@
+/*
+*Claire Campbell
+*1/4/19
+*St. Jude Children's Research Hospital
+*/
+
+/*The universal selector*/
+
+* { margin: 0, padding: 0;}
+
+/*This is how to control the height and width of the picture*/
+#stjudehospital{width: 250px; height: 250px;}
+/*This is how to move the picture around*/
+#stjudehospital {float: left;}
+
+#hospitalbuilding {width: 350px; height: 250px;}
+
+#giving{width: 250px; height: 250px}
+
+#stjudechildren{width: 250px; height: 250px;}
+
+#celebrate {width: 250px; height: 250px;}
+
+#logo {width: 200px; height: 250px;}
+/*This is how the border and margin is created for the pictures*/
+#stjudehospital{border: 2px dashed black;
+margin: .5em;}
+
+#hospitalbuilding {border: 2px solid hotpink;
+margin: .5em;}
+
+#giving{border: 2px solid black; 
+margin: .5em;}
+
+#stjudechildren{border: 2px solid hotpink; 
+margin: .5em;}
+
+#celebrate {border: 2px solid black; 
+margin: .5em;}
+
+#logo {border: 2px solid hotpink; 
+margin: .5em;}
+/*This is how the border of the main is created*/
+main{border-top: 4px solid hotpink;
+border-bottom: 4px solid hotpink;}
+/*This is the header's font*/
+header{font-family: Arial, Helvetica, sans-serif;}
+/*This is main's font*/
+main{font-family: Arial, Helvetica, sans-serif;}
+/*This is the footer's font*/
+footer{font-family: Arial, Helvetica, sans-serif;}
+
+/*This is how the header is centered*/
+header{text-align:center;} 
+/*This is the color of the header's text*/
+header{color: hotpink;}
+/*This is the color of h2's text*/
+h2{color: hotpink;}
+/*This is the color of h3's text*/
+h3{color: hotpink;}
+/*This is the color of the footer's text*/
+footer{color: hotpink;}
+/*This is placing the blockquote to the right of the page*/
+blockquote{text-align: right;}
